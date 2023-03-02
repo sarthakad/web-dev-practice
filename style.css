@@ -1,0 +1,39 @@
+body{
+    background-image: url('./image/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(228, 218, 34);
+}
+.project{
+    text-transform: lowercase;
+}
+.success-message{
+    color: black;
+    background-color: seashell;
+    border: 2px solid green;
+
+}
+.error-message{
+    color: black;
+    background-color: seashell;
+    border: 2px solid red;
+    
+}
+.success-message,.error-message{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    width: 400px;
+    padding: 50px;
+    margin: 50px;
+    
+    
+}
+header .item{
+    text-decoration: underline;
+}
